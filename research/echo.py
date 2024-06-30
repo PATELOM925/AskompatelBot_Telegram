@@ -19,7 +19,7 @@ async def command_start_handler(message: types.Message):
     await message.reply("HI,\nI am ECHO BOT!,\nBuilt by OM")
     
     
-@dp.message_handler()
+@dp.message_handler() 
 #creating a decorator
 async def echo(message: types.Message):
     await message.reply(message.text)
