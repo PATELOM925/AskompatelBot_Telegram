@@ -45,9 +45,9 @@ async def helper(message: types.Message):
     I am created by OM,
     
     Please Follow the below commands:
-    /start - To Start a conversation
-    /clear - To Clear the conversation
-    /help - To get this help Menu
+    /start - To Start a conversation.
+    /clear - To Clear the conversation.
+    /help - To get this help Menu.
     I hope this helps :)
     """
     await message.reply(help)
@@ -72,6 +72,3 @@ async def main_bot(message: types.Message):
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates = True)
-    
-    
-    
