@@ -9,7 +9,7 @@ API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 #configuring logging
 logging.basicConfig(level=logging.INFO)
 
-#intialize our bot
+#intialize our bot 
 bot = Bot(token = API_TOKEN)
 dp = Dispatcher(bot)
 
