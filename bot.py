@@ -9,7 +9,7 @@ API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") 
 openai.api_key = OPENAI_API_KEY
 model = "gpt-3.5-turbo"
-
+ 
 #configuring logging
 logging.basicConfig(level=logging.INFO)
 
