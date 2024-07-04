@@ -35,7 +35,7 @@ async def command_start_handler(message: types.Message):
 @dp.message_handler(commands=['clear'])
 async def clear(mesage: types.Message):
     clear_past()
-    await mesage.reply("I've cleared the past conversation and context")
+    await mesage.reply("I've cleared the history/past conversation and context")
     
 @dp.message_handler(commands=['help'])
 #creating a decorator
