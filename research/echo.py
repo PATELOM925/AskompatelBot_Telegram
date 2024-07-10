@@ -16,7 +16,7 @@ dp = Dispatcher(bot)
 @dp.message_handler(commands=['start','help'])
 #creating a decorator
 async def command_start_handler(message: types.Message):
-    await message.reply("HI,\nI am Trial bot!,\nBuilt by OM M. PATEL")
+    await message.reply("HI,\nI am Trial/Research bot!,\nBuilt by OM M. PATEL")
     
     
 @dp.message_handler() 
